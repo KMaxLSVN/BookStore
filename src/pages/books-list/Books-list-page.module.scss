@@ -1,0 +1,39 @@
+.headerTitle{
+    span{
+        font-size: 60px;
+    }
+}
+
+.booksContainer{
+    background-color: #c5cae9;
+    min-height: 300px;
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 10px;
+        .itemContainer{
+            max-width: 400px;
+            min-width: 300px;
+            margin-right: 30px;
+            margin-bottom: 20px;
+            &:hover{
+                background-color: #b0bbf7;
+            }
+            .bookCover{
+                padding: 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 200px;
+            }
+            .booksNav, .booksNavAdmin{
+                display: flex;
+                justify-content: space-between;
+            }
+            .booksNavAdmin{
+                padding-top: 20px;
+            }
+        }
+
+    }
+}
